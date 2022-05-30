@@ -1,6 +1,15 @@
 import matplotlib.pyplot as plt 
 import numpy as np 
-import pandas as pd 
+import pandas as pd
+"""
+    PyLab is a procedural interface to the Matplotlib object-oriented plotting library.
+    Matplotlib is the whole package; matplotlib.pyplot is a module in Matplotlib;
+    and PyLab is a module that gets installed alongside Matplotlib.
+
+    PyLab is a convenience module that bulk imports matplotlib.pyplot
+    (for plotting) and NumPy (for Mathematics and working with arrays)
+    in a single name space. Although many examples use PyLab, it is no longer recommended.
+""" 
 import pylab as pl 
 from sklearn.preprocessing import PolynomialFeatures 
 from sklearn import linear_model
